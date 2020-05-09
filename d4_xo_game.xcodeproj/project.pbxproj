@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		36C684112465DD1B00F8562C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C684102465DD1B00F8562C /* AppDelegate.swift */; };
 		36C684132465DD1B00F8562C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C684122465DD1B00F8562C /* SceneDelegate.swift */; };
-		36C684152465DD1B00F8562C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C684142465DD1B00F8562C /* ContentView.swift */; };
+		36C684152465DD1B00F8562C /* XOGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C684142465DD1B00F8562C /* XOGame.swift */; };
 		36C684172465DD1D00F8562C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C684162465DD1D00F8562C /* Assets.xcassets */; };
 		36C6841A2465DD1D00F8562C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C684192465DD1D00F8562C /* Preview Assets.xcassets */; };
 		36C6841D2465DD1D00F8562C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C6841B2465DD1D00F8562C /* LaunchScreen.storyboard */; };
+		36C684272466704F00F8562C /* rain-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36C684262466704F00F8562C /* rain-03.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36C6840D2465DD1B00F8562C /* d4_xo_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d4_xo_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C684102465DD1B00F8562C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C684122465DD1B00F8562C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36C684142465DD1B00F8562C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36C684142465DD1B00F8562C /* XOGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOGame.swift; sourceTree = "<group>"; };
 		36C684162465DD1D00F8562C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C684192465DD1D00F8562C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36C6841C2465DD1D00F8562C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C6841E2465DD1D00F8562C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C684262466704F00F8562C /* rain-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rain-03.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		36C684042465DD1B00F8562C = {
 			isa = PBXGroup;
 			children = (
+				36C684262466704F00F8562C /* rain-03.mp3 */,
 				36C6840F2465DD1B00F8562C /* d4_xo_game */,
 				36C6840E2465DD1B00F8562C /* Products */,
 			);
@@ -58,7 +61,7 @@
 			children = (
 				36C684102465DD1B00F8562C /* AppDelegate.swift */,
 				36C684122465DD1B00F8562C /* SceneDelegate.swift */,
-				36C684142465DD1B00F8562C /* ContentView.swift */,
+				36C684142465DD1B00F8562C /* XOGame.swift */,
 				36C684162465DD1D00F8562C /* Assets.xcassets */,
 				36C6841B2465DD1D00F8562C /* LaunchScreen.storyboard */,
 				36C6841E2465DD1D00F8562C /* Info.plist */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C684272466704F00F8562C /* rain-03.mp3 in Resources */,
 				36C6841D2465DD1D00F8562C /* LaunchScreen.storyboard in Resources */,
 				36C6841A2465DD1D00F8562C /* Preview Assets.xcassets in Resources */,
 				36C684172465DD1D00F8562C /* Assets.xcassets in Resources */,
@@ -148,7 +152,7 @@
 			files = (
 				36C684112465DD1B00F8562C /* AppDelegate.swift in Sources */,
 				36C684132465DD1B00F8562C /* SceneDelegate.swift in Sources */,
-				36C684152465DD1B00F8562C /* ContentView.swift in Sources */,
+				36C684152465DD1B00F8562C /* XOGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
